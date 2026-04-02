@@ -1,4 +1,4 @@
-# Nerfies
+# PSVBench
 
 This is the repository that contains source code for the PSVBench(https://PSVBench.github.io).
 
