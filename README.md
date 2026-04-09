@@ -1,8 +1,24 @@
 # PSVBench
 
-This is the repository that contains source code for the PSVBench([[https://PSVBench.github.io](https://github.com/DDDeno/PSVBench.github.io)](https://dddeno.github.io/PSVBench.github.io/)).
+Project page for PSVBench:
 
+- Website: `https://dddeno.github.io/PSVBench.github.io/`
+- Hugging Face: `https://huggingface.co/datasets/DDDDeno/PSVBench`
+- Code: `https://github.com/DDDeno/PSVBench`
 
+## Files
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+- Main page: `index.html`
+- Styles: `static/css/index.css`
+- Overview image: `static/images/content/psvbench-overview.png`
+- Appendix PDF: `static/pdfs/appendix.pdf`
+
+## Notes
+
+- Put website images under `static/images/content/`
+- The appendix download button reads `static/pdfs/appendix.pdf`
+- Author list, abstract, links, and license are edited in `index.html`
+
+## License
+
+CC-BY-NC-4.0. All data are collected from public websites, do not contain private data, and are intended for academic use only.
