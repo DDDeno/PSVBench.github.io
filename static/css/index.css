@@ -34,9 +34,10 @@ body {
 
 
 .publication-title {
-  max-width: 14ch;
   margin-left: auto;
   margin-right: auto;
+  font-size: clamp(2rem, 3.3vw, 3.8rem);
+  line-height: 1.08;
 }
 
 .publication-banner {
@@ -88,6 +89,8 @@ body {
 
 .author-block {
   display: inline-block;
+  margin: 0 0.55rem;
+  white-space: nowrap;
 }
 
 .publication-banner img {
@@ -183,10 +186,31 @@ body {
   text-transform: uppercase;
 }
 
-.hero-subtitle {
-  max-width: 38rem;
-  margin: 1.5rem auto 0;
+.publication-authors {
+  margin-top: 1.5rem;
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.publication-affiliations {
+  margin-top: 0.9rem;
   color: #516175;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1.25rem;
+}
+
+.publication-affiliations p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.corresponding-note {
+  margin-top: 0.35rem;
+  font-weight: 600;
 }
 
 .link-blocks {
@@ -230,6 +254,15 @@ body {
 
 .content-block {
   padding: 1rem 0;
+}
+
+.abstract-figure {
+  max-width: 100%;
+}
+
+.abstract-block {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .section-label {
@@ -296,7 +329,7 @@ body {
   }
 
   .publication-title {
-    max-width: none;
+    font-size: clamp(2rem, 8vw, 3rem);
   }
 
   .project-link {
